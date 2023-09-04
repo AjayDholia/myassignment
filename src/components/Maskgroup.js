@@ -3,7 +3,7 @@ import './mask.css'
 import maskgroup from '../Assets/Images/maskgroup.png'
 function Maskgroup() {
   return (
-    <div className='maskgroupmain'>
+    <div className='maskgroupmain' id="section1">
       <img src={maskgroup} />
       <button>Contact Us</button>
     </div>

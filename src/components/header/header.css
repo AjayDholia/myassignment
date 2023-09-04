@@ -52,6 +52,17 @@ left: 1137px; */
   letter-spacing: 0.06em;
   text-align: left;
 }
+
+.anchor{
+  color: #292929BF;
+  text-decoration: none;
+}
+.activeanchor{
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid #c2278e;
+}
+
 .reacticons {
   width: 7%;
   /* background: red; */

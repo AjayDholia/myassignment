@@ -7,7 +7,7 @@ import {FaLongArrowAltRight} from 'react-icons/fa'
 function Carear() {
 
   return (
-    <div className='row m-0 p-0 Career'>
+    <div className='row m-0 p-0 Career' id='section5'>
       <div className='col-lg-6 col-lg-6 col-12 Careerideas'>
         <img src={circle} className='circle'/>
        <div className='Careername'>CAREERS</div>

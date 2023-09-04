@@ -8,7 +8,7 @@ import { CiTwitter } from "react-icons/ci";
 import { BsInstagram, BsLinkedin } from "react-icons/bs";
 function Footer() {
   return (
-    <div className="row footermain">
+    <div className="row footermain" id='section6'>
       <div className="footerimage">
         <img src={patern} />
       </div>

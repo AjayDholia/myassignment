@@ -4,7 +4,7 @@ import laptop from '../../Assets/Images/laptop.png'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 function Sample() {
   return (
-    <div className='row samplemain'>
+    <div className='row samplemain' id='section4'>
       <div className='sapmleimage'>
         <img src={laptop} />
       </div>

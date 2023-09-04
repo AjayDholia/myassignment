@@ -7,7 +7,7 @@ import ELLERY from '../../Assets/Images/ELLERY.png'
 import GINGER from '../../Assets/Images/GINGER.png'
 function About() {
   return (
-    <div className='row m-0 p-0 aboutmain'>
+    <div className='row m-0 p-0 aboutmain' id="section2">
       <img src={linear} className='gradian' />
       <div className='aboutspan'><div>About Olvera</div></div>
       {/* <div className='loreamdiv1'>

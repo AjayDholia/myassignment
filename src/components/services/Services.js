@@ -4,7 +4,7 @@ import ServiceData from './ServiceData'
 
 function Services() {
   return (
-    <div className='servicemaindiv'>
+    <div className='servicemaindiv' id='section3'>
       <Record/>
       <ServiceData/>
     </div>

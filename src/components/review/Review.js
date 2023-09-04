@@ -26,7 +26,7 @@ function Review() {
     // },
   ];
   return (
-    <div className="reviewmain">
+    <div className="reviewmain" id="section3">
       <div className="feedbackquotes">What our clients say about us</div>
       <div className="customerreviewmain">
         <div className=" row customerreview">
