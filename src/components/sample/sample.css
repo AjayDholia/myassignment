@@ -1,0 +1,75 @@
+.samplemain {
+  /* background-image: url(../../Assets/Images/laptop.png); */
+  position: relative;
+  /* height: 90vh; */
+  /* background-repeat: no-repeat; */
+  width: 100%;
+  margin-left: 0px !important;
+  margin-top: 6%;
+  /* background-size: cover; */
+}
+.sapmleimage {
+  height: 100%;
+margin-top: 3%;
+  padding: 0px;
+  /* background-repeat: no-repeat; */
+  width: 100%;
+}
+.sapmleimage img {
+  height: 59vh;
+  /* background-repeat: no-repeat; */
+  width: 100%;
+  object-fit: cover;
+}
+
+.samplename {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  color: white;
+  font-family: "Plus Jakarta Sans";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.sampleparagraph {
+  position: absolute;
+  bottom: 20%;
+  left: 12%;
+  width: 50%;
+  font-family: "Archivo";
+  font-size: 17px;
+  color: white;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.flexsample {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 44%;
+  right: 10%;
+  color: white;
+}
+.arrow {
+  height: 24px;
+  width: 30px;
+  /* border-color: red; */
+  border: 1px solid white;
+  /* background: red; */
+  padding: 34px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .samplemain {
+
+    margin-top: 40rem;
+  }
+}

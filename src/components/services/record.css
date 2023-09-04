@@ -1,0 +1,239 @@
+.recorddata {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.servicemaindiv {
+  height: 100vh;
+}
+
+.digit {
+  font-family: "Montserrat Alternates";
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 76px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #cc0e8c;
+}
+
+.recordname {
+  /* font-size: 16px;
+font-family: 'Montserrat';
+font-weight: 400; */
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.indexvalue {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #c2278e;
+}
+.serviceitem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.serviceitemname {
+  font-family: "Montserrat Alternates";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.serviceideas {
+  position: relative;
+  padding-left: 8%;
+  margin-top: 4%;
+  height: 94vh;
+
+  padding-right: 5%;
+}
+.serviceideas button {
+  padding: 2%;
+  background-color: #c2278e;
+  border-radius: 31px;
+  margin-top: 8%;
+  border: none;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.ourservicesitem {
+  margin-top: 4%;
+  height: 94vh;
+  padding: 0px;
+  padding-left: 4%;
+}
+
+.circle {
+  position: absolute;
+  height: 100%;
+  top: 0%;
+  right: 0%;
+  height: 40vh;
+}
+.halfcircle {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  height: 40vh;
+}
+.ourservices {
+  font-family: "Plus Jakarta Sans";
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.serviceparagraph {
+  font-family: "Archivo";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6e6e6e;
+  margin-top: 2%;
+}
+
+.servicenmae {
+  font-family: "Oswald";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #c2278e;
+}
+.Careername {
+  font-family: "Oswald";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #c2278e;
+}
+.Careerideas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+  padding-left: 8%;
+  margin-top: 4%;
+  height: 94vh;
+  padding-right: 5%;
+}
+
+.Careerideas button {
+  padding: 2%;
+  background-color: #c2278e;
+  border-radius: 31px;
+  margin-top: 8%;
+  border: none;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 40%;
+}
+.Career{
+    display: flex;
+    /* flex-direction: column-reverse; */
+}
+@media only screen and (max-width: 600px) {
+    .servicenmae {
+        display: none;
+        font-family: "Oswald";
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.06em;
+        text-align: left;
+        color: #c2278e;
+    }
+  .ourservicesitem {
+    margin-top: 4%;
+    height: 65vh;
+    padding: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .Careerideas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding-left: 8%;
+    margin-top: 4%;
+    height: auto;
+    padding-right: 5%;
+}
+.Careername {
+    font-family: "Oswald";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #c2278e;
+}
+.ourservices {
+    font-family: "Plus Jakarta Sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 2rem;
+}
+.serviceparagraph{
+    text-align: center;
+    margin-top: 1.3rem;
+    font-size: 16px;
+}
+.Careerideas button{
+    text-align: center;
+    margin: 28px auto;
+}
+.digit {
+    font-family: "Montserrat Alternates";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #cc0e8c;
+}
+.Career{
+  
+}
+.serviceideas {
+    position: relative;
+    padding-left: 8%;
+    margin-top: 4%;
+    margin-bottom: 10%;
+    height: auto;
+    padding-right: 5%;
+}
+}
