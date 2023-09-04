@@ -62,6 +62,10 @@ left: 1137px; */
   text-decoration: none;
   border-bottom: 2px solid #c2278e;
 }
+.anchor:Hover{
+  color: #c2278e !important;
+  text-decoration: none;
+}
 
 .reacticons {
   width: 7%;
