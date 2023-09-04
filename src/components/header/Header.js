@@ -3,6 +3,7 @@ import './header.css'
 import {BsFacebook} from 'react-icons/bs'
 import {BiLogoInstagram} from 'react-icons/bi'
 import {AiFillLinkedin} from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 import Logo from '../../Assets/Images/Logo.png'
 function Header() {
 
@@ -43,7 +44,8 @@ function Header() {
         {
 HeaderTags.map((tag)=>{
     return(
-        <div className='homepagelink'>{tag.name}</div>
+        <div className='homepagelink'>
+            <Link>{tag.name}</Link></div>
     )
 })
         }
